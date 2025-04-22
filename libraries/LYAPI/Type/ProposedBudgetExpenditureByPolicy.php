@@ -67,6 +67,7 @@ class LYAPI_Type_ProposedBudgetExpenditureByPolicy extends LYAPI_Type
     public static function aggMap()
     {
         return [
+            '單位代碼' => ['unit', ['機關編號', '機關名稱']],
         ];
     }
 
