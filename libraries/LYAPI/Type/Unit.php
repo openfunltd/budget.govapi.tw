@@ -12,6 +12,14 @@ class LYAPI_Type_Unit extends LYAPI_Type
         return [];
     }
 
+    public static function getIdFieldsInfo()
+    {
+        return [
+            '_id' => [
+            ],
+        ];
+    }
+
     public static function getFieldMap()
     {
         return [
