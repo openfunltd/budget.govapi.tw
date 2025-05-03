@@ -14,7 +14,7 @@ class LYAPI_Type_ProposedBudgetSubBranchProject extends LYAPI_Type
                 'es_field' => '單位代碼.keyword',
             ],
             '年度' => [
-                'es_field' => '年度.keyword',
+                'es_field' => '年度',
             ],
             '單位' => [
                 'es_field' => '單位.keyword',
